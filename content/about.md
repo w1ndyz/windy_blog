@@ -99,8 +99,8 @@ showComments: false
         <p>stay hungry stay foolish</p>
         <p>Contact me:</p>
         <ul>
-	<li><p><span class="iconfont icon-mail"></span> Email: <a href="mailto:fzzf0618@126.com"
-                    rel="nofollow noreferrer" target="_blank">fzzf0618@126.com</a></p></li>
+	<li><p><span class="iconfont icon-mail"></span> Email: <a href="mailto:w1ndyz618@gmail.com"
+                    rel="nofollow noreferrer" target="_blank">w1ndyz618@gmail.com</a></p></li>
 	<li><p><span class="iconfont icon-github"></span> GitHub: <a href="https://github.com/w1ndyz"
                         rel="nofollow noreferrer" target="_blank">W1ndy</a></p></li>
         </ul>
@@ -108,7 +108,7 @@ showComments: false
     <div class="about-info-right">
 	    <div class="left-hand"><span style="font-size: 0.5em">&ensp;</span>٩</div>
         <div class="left-ear">▲</div>
-        <img alt="W1ndy" src="../static/images/me/avatar.png">
+        <img alt="W1ndy" src="https://drive.google.com/file/d/1ipj1Fmzg7Ggb1zxzmBUDW5JtC0Gc_iWK/view?usp=sharing">
         <div class="right-ear">▲</div>
         <div class="right-hand">و<span style="font-size: 0.5em">✧</span></div>
     </div>
