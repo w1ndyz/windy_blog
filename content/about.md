@@ -99,8 +99,8 @@ showComments: false
         <p>stay hungry stay foolish</p>
         <p>Contact me:</p>
         <ul>
-	<li><p><span class="iconfont icon-mail"></span> Email: <a href="mailto:w1ndyz618@gmail.com"
-                    rel="nofollow noreferrer" target="_blank">w1ndyz618@gmail.com</a></p></li>
+	<li><p><span class="iconfont icon-mail"></span> Email: <a href="mailto:w1ndyz0618@gmail.com"
+                    rel="nofollow noreferrer" target="_blank">w1ndyz0618@gmail.com</a></p></li>
 	<li><p><span class="iconfont icon-github"></span> GitHub: <a href="https://github.com/w1ndyz"
                         rel="nofollow noreferrer" target="_blank">W1ndy</a></p></li>
         </ul>
