@@ -39,4 +39,4 @@ ans: 防止过期或失效连接又传给了服务端，因而产生错误。如
 
 接收到FIN时意味将没有数据再发来，但是还是可以继续发送数据
 
-![](/static/images/posts/tcp.png)
+![](https://i.loli.net/2020/06/28/9Xdhqju57aOVic6.png)
