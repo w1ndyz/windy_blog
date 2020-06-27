@@ -10,21 +10,29 @@ tags = [
 
 今天看`golang-developer-road-map`，发现上面有涉及到软件的设计原则，于是就在网上搜索了一番，在这里整理一下。
 
-[TOC]
+# 目录
+  * [SOLID原则](#chapter-1)
+    * [职责单一原则](#chapter-11)
+    * [开闭原则](#chapter-12)
+    * [里氏代换原则](#chapter-13)
+    * [接口隔离原则](#chapter-14)
+    * [依赖倒置原则](#chapter-15)
+  * [YAGNI原则](#chapter-2)
+  * [KISS原则](#chapter-3)
 
-##### SOLID原则
+##### SOLID原则 <a id="chapter-1"></a>
 
 > SOLID原则又叫面向对象的S.O.L.I.D原则。
 
-###### Single Responsibility Principle(SRP) - 职责单一原则
+###### Single Responsibility Principle(SRP) - 职责单一原则 <a id="chapter-11"></a>
 
 其核心思想是: 一个类只做一件事，并把这件事做好，其只有一个引起它变化的原因。单一职责原则可以看成是低耦合、高内聚在面向对象原则上的引申。不要为一个模块设计过多的功能点，以保证实体只有一个引起它变化的原因。
 
-###### Open/Closed Principle(OCP) - 开闭原则
+###### Open/Closed Principle(OCP) - 开闭原则 <a id="chapter-12"></a>
 
 其核心思想是:模块是可以扩展的，而不可修改的。即对扩展是开放的，对修改是封闭的。对于面对对象来说，需要你依赖抽象，而不是实现。
 
-###### Liskov Subsititution Principle(LSP) - 里氏代换原则
+###### Liskov Subsititution Principle(LSP) - 里氏代换原则 <a id="chapter-13"></a>
 
 >
 >
@@ -34,7 +42,7 @@ tags = [
 
 子类应该可以替换任何基类能够出现的地方，并且替换后，代码仍能继续工作。另外，不应该在代码中出现if/else之类对子类类型进行判断的条件。里氏代换原则LSP是使代码符合开闭原则的一个重要保证。正式由于子类型的可替换性才使得父类型的模块在无需修改的情况下就可以扩展。LSP原则给了我们一个判断和设计类之间关系的基准:需不需要继承，以及怎么去设计继承的关系。
 
-###### Interface Segregation Principle(ISP) - 接口隔离原则
+###### Interface Segregation Principle(ISP) - 接口隔离原则 <a id="chapter-14"></a>
 
 意思是把功能的实现写在接口中，而不是类中，使用多个专门的接口比使用单一的总接口要好。
 
@@ -42,13 +50,13 @@ tags = [
 
 按照功能隔离而不是按照对象隔离。
 
-###### Dependency Inversion Principle(DIP) - 依赖倒置原则
+###### Dependency Inversion Principle(DIP) - 依赖倒置原则 <a id="chapter-15"></a>
 
 高层模块不应该依赖低层模块的实现，而是应该依赖于高层的抽象。
 
 举个例子，墙面的开关不应该依赖于电灯的开关实现，而是应该依赖于一个抽象的开关的标准接口，这样，当我们扩展程序的时候，我们的开关同样可以控制其它不同的灯，甚至不同的电器。也就是说，电灯和其它电器继承并实现我们的标准开关接口，而我们的开关产商就可不需要关于其要控制什么样的设备，只需要关心那个标准的开关标准。这就是依赖倒置原则。
 
-##### YAGNI
+##### YAGNI <a id="chapter-2"></a>
 
 > YAGNI(You Ain't Gonna Need It)。
 
@@ -56,7 +64,7 @@ tags = [
 
 在设计系统的时候，往往会考虑很多扩展性的东西，想的太多往往使用大量的折中。不如只想目前需要的，有需要再添加。
 
-##### KISS
+##### KISS <a id="chapter-3"></a>
 
 >KISS(Keep It Simple, Stupid)。
 

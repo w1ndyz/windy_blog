@@ -54,3 +54,8 @@ preserveTaxonomyNames = true
 
 [markup.goldmark.renderer]
     unsafe = true
+
+[markup.tableOfContents]
+    endLevel = 7
+    ordered = false
+    startLevel = 5
