@@ -1,10 +1,11 @@
 +++
-author = "Hugo Authors"
+author = "W1ndy"
 title = "Rails delegate的理解和用法"
 date = "2017-01-15"
 description = "rails delegate"
+categories = ["关于Rails"]
 tags = [
-    "ROR"
+    "rails"
 ]
 +++
 

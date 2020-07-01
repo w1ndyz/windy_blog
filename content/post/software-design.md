@@ -1,8 +1,9 @@
 +++
-author = "Hugo Authors"
+author = "W1ndy"
 title = "软件设计原则"
 date = "2020-06-25"
 description = "SOLID KISS YAGNI"
+categories = ["软件设计"]
 tags = [
     "design"
 ]

@@ -96,7 +96,7 @@ showComments: false
 
 <div class="about-info">
     <div class="about-info-left">
-        <p>stay hungry stay foolish</p>
+        <p>Stay hungry stay foolish</p>
         <p>Contact me:</p>
         <ul>
 	<li><p><span class="iconfont icon-mail"></span> Email: <a href="mailto:w1ndyz0618@gmail.com"

@@ -1,11 +1,10 @@
 +++
-author = "Hugo Authors"
+author = "W1ndy"
 title = "使用DockerSwarm部署Rails(二)"
 date = "2019-11-11"
 description = "docker swarm deploy rails"
-tags = [
-    "ROR"
-]
+categories = ["关于Rails"]
+tags = ["rails","docker"]
 +++
 
 #### 多阶段构建

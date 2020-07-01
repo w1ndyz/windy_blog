@@ -1,11 +1,10 @@
 +++
-author = "Hugo Authors"
+author = "W1ndy"
 title = "使用DockerSwarm部署Rails(一)"
 date = "2019-10-24"
 description = "docker swarm deploy rails"
-tags = [
-    "ROR"
-]
+categories = ["关于Rails"]
+tags = ["rails","docker"]
 +++
 
 在使用docker部署rails项目之前，我们先来介绍gitlab的ci/cd。

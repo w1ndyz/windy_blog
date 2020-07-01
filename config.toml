@@ -37,7 +37,7 @@ preserveTaxonomyNames = true
 [params]
     author = "w1ndy"                         # Author's name
     avatar = "/images/me/avatar.png"    # Author's avatar
-    subtitle = "something special"                       # Subtitle
+    subtitle = "Something special"                       # Subtitle
     home_mode = ""                      # post or other
     enableGitalk = true                 # gitalk 评论系统
 
