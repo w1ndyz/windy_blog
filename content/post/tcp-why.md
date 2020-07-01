@@ -1,10 +1,11 @@
 +++
-author = "Hugo Authors"
-title = "tcp状态机拾遗"
+author = "W1ndy"
+title = "tcp状态机"
 date = "2020-06-18"
 description = "tcp的握手挥手以及状态机"
+categories = ["为什么?"]
 tags = [
-    "why?"
+    "网络协议"
 ]
 +++
 

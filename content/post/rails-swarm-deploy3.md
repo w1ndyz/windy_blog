@@ -1,11 +1,10 @@
 +++
-author = "Hugo Authors"
+author = "W1ndy"
 title = "使用DockerSwarm部署Rails(三)"
 date = "2019-12-24"
 description = "docker swarm deploy rails"
-tags = [
-    "ROR"
-]
+categories = ["关于Rails"]
+tags = ["rails","docker"]
 +++
 
 #### Portainer
