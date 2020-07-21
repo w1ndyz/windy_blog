@@ -104,6 +104,7 @@ showComments: false
 	<li><p><span class="iconfont icon-github"></span> GitHub: <a href="https://github.com/w1ndyz"
                         rel="nofollow noreferrer" target="_blank">W1ndy</a></p></li>
         </ul>
+        <p>Book i've read: <a href="https://book.douban.com/people/121056416/" target="_blank" rel="nofollow noreferrer">book.douban.com/people/121056416</a></p>
     </div>
     <div class="about-info-right">
 	    <div class="left-hand"><span style="font-size: 0.5em">&ensp;</span>٩</div>
