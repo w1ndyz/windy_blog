@@ -55,7 +55,7 @@ func BubbleSort(nums []int) []int {
 
 要排序的数据已经是有序的了，我们只需要进行一次冒泡操作，就可以结束了，所以最好情况时间复杂度是 O(n)。而最坏的情况是，要排序的数据刚好是倒序排列的，我们需要进行 n 次冒泡操作，所以最坏情况时间复杂度为 O(n2)。
 
-![image-20200722221719160.png](https://i.loli.net/2020/07/22/j7Fum8WXwPlQy3p.png)
+![](https://raw.githubusercontent.com/w1ndyz/windy-img/master/img/j7Fum8WXwPlQy3p.png)
 
 如果用概率论方法定量分析平均时间复杂度，涉及的数学推理和计算就会很复杂。我这里还有一种思路，通过“有序度”和“逆序度”这两个概念来进行分析。
 
@@ -65,7 +65,7 @@ func BubbleSort(nums []int) []int {
 有序元素对：a[i] <= a[j], 如果i < j。
 ```
 
-![image-20200722221823334.png](https://i.loli.net/2020/07/22/RzBm64WgHjMr5YL.png)
+![](https://raw.githubusercontent.com/w1ndyz/windy-img/master/img/RzBm64WgHjMr5YL.png)
 
 同理，对于一个倒序排列的数组，比如 6，5，4，3，2，1，有序度是 0；对于一个完全有序的数组，比如 1，2，3，4，5，6，有序度就是 n*(n-1)/2，也就是 15。我们把这种完全有序的数组的有序度叫作满有序度。
 
@@ -77,7 +77,7 @@ func BubbleSort(nums []int) []int {
 
 我还是拿前面举的那个冒泡排序的例子来说明。要排序的数组的初始状态是 4，5，6，3，2，1 ，其中，有序元素对有 (4，5) (4，6)(5，6)，所以有序度是 3。n=6，所以排序完成之后终态的满有序度为 n*(n-1)/2=15。
 
-![image-20200722222049447.png](https://i.loli.net/2020/07/22/iDmpSwhr8Xza7Vj.png)
+![](https://raw.githubusercontent.com/w1ndyz/windy-img/master/img/yxd.png)
 
 冒泡排序包含两个操作原子，比较和交换。每交换一次，有序度就加 1。不管算法怎么改进，交换次数总是确定的，即为逆序度，也就是n*(n-1)/2–初始有序度。此例中就是 15–3=12，要进行 12 次交换操作。
 
@@ -116,13 +116,13 @@ func InsertionSort(nums []int) []int {
 
 过程如图所示：
 
-![image-20200722225022515.png](https://i.loli.net/2020/07/22/1mlvk7H5ZoE3PbI.png)
+![](https://raw.githubusercontent.com/w1ndyz/windy-img/master/img/1mlvk7H5ZoE3PbI.png)
 
 ### 选择排序(Selection Sort)
 
 选择排序算法的实现思路有点类似插入排序，也分已排序区间和未排序区间。但是选择排序每次会从未排序区间中找到最小的元素，将其放到已排序区间的末尾。
 
-![image-20200722225022515.png](https://i.loli.net/2020/07/22/1mlvk7H5ZoE3PbI.png)
+![](https://raw.githubusercontent.com/w1ndyz/windy-img/master/img/r7UoxM8ZOPHA6FX.png)
 
 ### 总结
 

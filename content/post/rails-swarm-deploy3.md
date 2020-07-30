@@ -24,7 +24,7 @@ Docker Swarm 是Docker引擎内置(原生)的集群管理和编排工具。
 
 节点分为管理(manager)节点和工作(worker)节点。一个Swarm可以有多个管理节点，但只有一个管理节点可以成为`leader`，`leader`通过`raft`协议实现。工作节点是任务执行的节点，管理节点将任务或服务(service)下发到工作节点执行。管理节点默认也作为工作节点。下面这张图片展示了集群中管理节点和工作节点的关系:
 
-![swarm-diagram.png](https://i.loli.net/2020/06/30/TlzVUoXOPBNp57I.png)
+![swarm-diagram.png](https://raw.githubusercontent.com/w1ndyz/windy-img/master/img/TlzVUoXOPBNp57I.png)
 
 任务(Task)是Swarm中的最小调度单位,目前来说就是一个单一的容器。
 

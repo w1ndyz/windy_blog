@@ -109,7 +109,7 @@ showComments: false
     <div class="about-info-right">
 	    <div class="left-hand"><span style="font-size: 0.5em">&ensp;</span>٩</div>
         <div class="left-ear">▲</div>
-        <img alt="W1ndy" src="https://i.loli.net/2020/06/28/QnhWI3rEHxmw9TL.png">
+        <img alt="W1ndy" src="https://raw.githubusercontent.com/w1ndyz/windy-img/master/img/WX20200613-020307%402x.png">
         <div class="right-ear">▲</div>
         <div class="right-hand">و<span style="font-size: 0.5em">✧</span></div>
     </div>
