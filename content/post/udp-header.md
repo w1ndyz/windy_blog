@@ -1,8 +1,8 @@
 +++
 author = "W1ndy"
-title = "tcp状态机"
+title = "为什么UDP头有8个字节?"
 date = "2020-07-24"
-description = "为什么UDP头有8个字节"
+description = "为什么UDP头有8个字节?"
 categories = ["为什么?"]
 tags = [
     "UDP"

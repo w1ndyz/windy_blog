@@ -1,6 +1,6 @@
 +++
 author = "W1ndy"
-title = "tcp状态机"
+title = "为什么TCP3次握手4次挥手?"
 date = "2020-06-18"
 description = "tcp的握手挥手以及状态机"
 categories = ["为什么?"]
