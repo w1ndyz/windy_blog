@@ -69,7 +69,7 @@ DNS是一个应用层的协议，它选择的传输层协议大部分是UDP协�
 
 socket分为TCP/UDP这两种协议的套接字，而这两种协议便处于传输层。往往应用层会有很多请求，所以传出层会有很多的socket，他们通过协议头中的IP，端口号进行标识，用来知道传输层收到的响应请求对应哪一个socket。
 
-这里有对[TCP](http://xxx.com/post/udp-header)的详细理解，这里是对[UDP](http://xxx.com/post/udp-header)的详细理解，就不一一赘述了。
+这里有对[TCP](http://xxx.com/post/tcp-why)的详细理解，这里是对[UDP](http://xxx.com/post/udp-header)的详细理解，就不一一赘述了。
 
 <h4 style="color: #23D18B"> IP </h4>
 
