@@ -96,7 +96,10 @@ showComments: false
 
 <div class="about-info">
     <div class="about-info-left">
-        <p>Stay hungry stay foolish</p>
+        <p>末流的头脑, 迷信运气</p>
+        <p>三流的头脑，崇拜概率</p>
+        <p>二流的头脑，信仰期望</p>
+        <p>一流的头脑，奉行效用</p>
         <p>Contact me:</p>
         <ul>
 	<li><p><span class="iconfont icon-mail"></span> Email: <a href="mailto:w1ndyz0618@gmail.com"

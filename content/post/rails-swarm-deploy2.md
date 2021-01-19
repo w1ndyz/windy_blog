@@ -37,7 +37,7 @@ version: "3.6"
 
 services:
   app: &app_base
-    container_name: 'app
+    container_name: 'app'
     env_file:
       - docker.env
     #镜像地址
